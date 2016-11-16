@@ -9,6 +9,9 @@ package project;
  *
  * @author Mohak
  */
-public interface Person {
+public abstract class Person {
+    protected int age;
+    protected String Name,Rank,PhysicalDescription;
+    protected Long Id;
     
 }
